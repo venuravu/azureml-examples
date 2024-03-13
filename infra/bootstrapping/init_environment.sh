@@ -48,15 +48,15 @@ let "REGISTRY_TODAY=10#$(date +'%m%d')"
 let "REGISTRY_TOMORROW=10#$(date -d '+1 days' +'%m%d')"
 
 
-export LOCATION="southindia"
+export LOCATION="East US"
 export PREFIX=aml
 export SUFFIX=sdkv202
 export APP_NAME="github-sp-amlsdkv2-gh-2"
 export timestamp=$(date +%s)
-export RESOURCE_GROUP_NAME=rg-dev-mlops
-export WORKSPACE_NAME=mlw-dev-mlops
-export SUBSCRIPTION_ID=99ccb7b1-9d11-4397-bd50-a2af0a02bed8
-export AZURE_SERVICE_PRINCIPAL="github-aml-sp"
+# export RESOURCE_GROUP_NAME=test-data-rg
+# export WORKSPACE_NAME=${PREFIX}${SUFFIX}${DATE_ONLY}-ws
+# export SUBSCRIPTION_ID=test
+# export AZURE_SERVICE_PRINCIPAL="github-sp-${PREFIX}${SUFFIX}"
 
 # check if the required variables are specified.
 
